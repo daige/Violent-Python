@@ -15,7 +15,7 @@ def extractFill(zFile,password):
         pass
 
 def main():
-    usage = "usage:"+sys.argv[0]+" -f <zipfile> -d <dict>"
+    usage = "usage: %prog  -f <zipfile> -d <dict>"
     parser = optparse.OptionParser(usage)
     parser.add_option('-f',dest='zname',type='string',help='specify zip file')
     parser.add_option('-d',dest='dname',type='string',help='specify dict file')
